@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>webpage-with-div and absolute  positionning-classes</title>
+		<style type="text/css">
+
+			.red  {
+				color:red; 
+			}
+
+			.large {
+				font-size: 200%;
+			}
+			#green {
+				color: green;
+
+			}
+
+			.underline{
+				color: #ffffff;
+				text-decoration: underline; 
+			}	
+			#fixed-section {
+				position: fixed;
+				left:1000px;
+				background-color: #D12B26;
+				width: 100px;
+				height: 40px;	
+			}
+
+			#first-section {
+				
+				color:blue;
+				background-color:pink; 
+				width:400px; 
+				position: relative;
+				left: 100px ;
+				top:150px;
+				z-index:2;
+				opacity: 0.5;
+
+			}
+			#second-section{
+				background-color:#6c45ed;
+				color:#D12B26;
+				width: 400px;
+				position: relative;
+				left:100px;
+				z-index:1;
+			}
+			
+			#third-section {
+				background-color: #F2D100;
+				color:#000000;
+				width: 300px;
+				height: 500px;
+				position: absolute;
+				top: 120px;
+				
+			}
+			#fourth-section {
+				background-color: #7B7B7B;
+				color: #FFFFFF;
+				position: relative;
+				left:50px;
+				top:-40px; 
+				width: 400px;
+				height: 800px;
+				z-index: 2;
+				opacity: 1;
+			}
+		</style>
+</head>
+<body>
+<div id="fixed-section">
+		<p>
+		i am fixed here</p>
+	</div>
+<p><strong>Opacity property "opacity:0.5" for  first-section since it has highest z-index and comes in fore ground</strong></p>
+	<p>Opacity value 1 means opaque<br>
+	Opacity value 0 means invisible<br>
+	opacity value 0.5 meaans transparent</p>
+	
+	<div id="first-section">
+		we are adding 200px padding from left and 100 px from top
+		<strong>
+			<br> relative position div 1 -default it comes below div 2
+			<br> z-index property decides which one goes above other
+			<br> highest z-index goes above
+			<br> property "z-index: 2"
+		</strong>
+		<p >The quick brown fox jumped over the lazy dog</p>
+		<p >WoW i love inserted css!</p>
+		<h1 >The CSS is cool</h1>
+	</div>
+
+	<div id="second-section">
+		we are adding -60px padding from left 
+			<br> relative position div 2	
+			<br> property "z index 1"
+		<p id="green">There is some more text </p>
+		<p>id : use of id is unique per page<br>
+		class : is used to group tags
+		</p>
+		<p>portion of paragraph is going to be affected</p>
+		<p>part of the paragraph to be affected</p>
+		<p>id : use of id is unique per page  </p>
+
+	</div>	
+	<div id="third-section">
+		"third in flow but??"
+		<p>i am absolute positoned here</p>
+	</div>
+
+	<div id="fourth-section">
+		property "z-index: 2" 
+		<p> relative positioning of 4th div</p>
+	</div>	
+	<p>
+	
+
+		 
+
+</body>
+
+</html> 

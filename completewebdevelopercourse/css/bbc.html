@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bbc</title>
+	<style type="text/css">
+		#topbar {
+			width: 1000px;
+			margin: 0 auto;
+			background-color: white;
+			height: 40px; 
+		}
+		#banner-news-text {
+			margin: 0;
+			width: 100%;
+			background-color: #B90000;	 
+		}
+		#news-banner-text {
+			color: white;
+			font-size: 40px;
+			padding-left: 124px;
+			
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, Helvetica, freesans, sans-serif;
+		}
+		#logo {
+			margin: 8px;
+			width: 80px;
+			float: left;
+			margin-right: 8px; 
+		}
+		.topbar-section {
+			float: left;
+			border-left:1px #CCCCCC solid;	
+			height: 100%;
+				 
+		}
+		.topbar-menu {
+			font-weight: bold;
+			font-size: 90%;
+			padding: 14px 15px 0 15px;
+			height: 26px;
+				
+		}
+
+		#signin-image {
+			width: 20px;
+			margin: 8px;
+			float: left;
+				
+		}
+		#signin-text {
+			width: bold;
+			font-size: 90%;
+			position: relative;
+			top: 11px;	
+			padding-right: 50px;
+				
+		}
+		#bell-div{
+			float: left;
+		}
+		#wiggly-line {
+			float: left;
+				height:40px;
+		}
+		
+		
+		#bell {
+			height: 40px;
+			width: 40px;
+			
+		}
+		#more-arrow {
+			height:10px;
+			width: 8px;
+			padding-left:16px;
+		}
+		#search-news {
+			width: 120px;
+			padding:5px;
+			border: none;
+			font-weight: bold;
+			font-size: 16px;
+			margin: 5px 0 5px 5px;	
+			background-color: #E3E3E3;
+			float: left;
+		}
+		#search-img {
+			
+			height: 12px;
+			width: 12px;
+			padding: 8px;
+			margin: 5px 0 5px 0px;
+			float: left;
+			background-color: #E3E3E3;
+			
+		}
+		.clear {
+			clear: both;
+		}
+		
+		#menu-bar-container{
+			
+			width: 100%;
+			background-color: #A90000	;
+			height: 60px;
+			
+		}
+		
+		#menu-bar {
+			
+			width: 100%;
+			margin: 0 auto;
+			float: left;
+				
+		}
+		h1 {
+			
+			width:120px; 	
+			margin: 0;
+			padding: 0;
+			color: white;
+			font-size: 40px;
+			font-weight: normal;
+			padding-top: 10px;
+			padding-left:120px;
+			float: left;
+			
+		}
+		#local-news {
+			
+			border: 1px #BB4545 solid;
+			width: 175px;
+			height:30px;	
+			color: white;
+			float: right;
+			margin-top: 18px;
+			margin-right: 120px;
+			padding-left:10px;
+		
+		}
+		#local-news a {
+			
+			color: white;			
+			text-decoration: none;
+			font-size: 20px;
+			position: relative;
+			top:-3px;
+			
+		}
+		#local-news a:hover {
+			
+			text-decoration: underline;
+		
+		}
+		#local-news img{
+			
+			padding-top:8px;
+			padding-left:6px;   
+			height: 16px;
+			
+		}
+			</style>
+</head>
+<body>
+	<div id="topbar">
+		<img id="logo" src="img/bbc-logo.png">
+		<div id="signin-div" class="topbar-section">
+			<img id="signin-image" src="img/user-bbc.png">
+			 <span id="signin-text">Sign in</span>
+		</div>	
+		<div id="bell-div">
+			<img id="wiggly-line" src="img/line.png">
+			<div id="bell">  </div>
+		</div>
+		<div class="topbar-section topbar-menu">
+			News
+		</div>
+		<div class="topbar-section topbar-menu">
+			Sport
+		</div>
+		<div class="topbar-section topbar-menu">
+			Weathert
+		</div>
+		<div class="topbar-section topbar-menu">
+			iPlayer
+		</div>
+		<div class="topbar-section topbar-menu">
+			Tv
+		</div>
+		<div class="topbar-section topbar-menu">
+			Radio
+		</div>
+		<div class="topbar-section topbar-menu">
+			More 
+			<img id="more-arrow" src="img/more.png">
+		</div>
+		<div class="topbar-section">
+			<input id="search-news" type="text" value="Search..">
+			<img id="search-img" src="img/search.png">
+		</div>
+				
+	</div>
+	<div class="clear"></div>
+	<div id="menu-bar-container">
+		<div id="menu-bar">
+			<h1>NEWS</h1>
+		       <div id="local-news">
+				<a href="" >Find local news</a>
+				<img src="img/pointer.png">
+		       </div>
+		</div>
+	</div>
+	<!--
+	<div id="banner-news-text">
+		<span id="news-banner-text">NEWS</span>
+		
+	</div>
+	-->
+</body>
+</html>

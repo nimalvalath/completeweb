@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UK - BBC - Nems</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#header{
+
+		}
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #FFFFFF;
+		}
+		.border-signin {
+			margin: 0;
+			border-style:ridge;
+			border-width: 0.5px;
+			border-color: grey; 
+		}
+		#img-logo-space {
+			width: 16%;
+			height:24px;
+			margin: 0;
+			padding: 8px; 
+			float: left;
+			border-style:ridge;
+			border-width: 0.5px;
+			border-color: grey; 
+		}
+		#img-logo {
+			float: right;
+		}
+		#img-user-signin {
+			width: 1%;
+			height: 16px;
+			margin-left: 1px ;
+			padding-left:8px;
+			padding-bottom: 8px;
+			padding-top: 16px;
+			float: left; 
+			justify-content: center;
+			background-color: grey;
+		}
+		.link-header {
+			text-decoration: none;
+			color: #000000;
+		}
+
+		#signin {
+			width: 12%;	
+			height: 28px;
+			padding-left:8px; 
+			padding-top: 12px;
+			float: left;
+			justify-content: center;
+			color: #000000;
+			background-color: grey;
+
+		}
+
+		#news-header {
+			
+			width: 4%;
+			height: 24px;
+			margin-left: 1px;
+			background-color: grey;
+			float: left;
+			padding-left: 8px;
+			padding-bottom: 4px;
+			padding-top: 10px;	 
+			border-style: ridge;
+			border-width: 0.5px;
+			border-color: grey;	
+		}
+		.dropdown {
+
+			margin-left:1px;
+			width: 80px; 
+			height: 24px;
+			background-color: grey;
+			position: relative;
+    		display: block;
+			border-color: grey;
+		
+			
+		}
+		 .dropbtn {
+
+		 	width: 80px; 
+		 	height: 40px; 
+		    background-color: grey;
+		    color: black;
+		    padding: 8px;
+		    justify-content: center;
+		    font-size: 16px;
+		    border: none;
+		    cursor: pointer;
+			  
+		}
+		.dropdown-content {
+
+		  	display: none;
+		  	width:80px;
+		    position: absolute;
+		    background-color: grey;
+		    min-width: 80px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+	
+		}
+		.dropdown-content a {
+
+			
+		  	color: black;
+		  	width: 100px;
+		  	padding-left: 8px;
+    		right: 0;
+    		background-color: grey;
+    		text-decoration: none;
+		  	text-align: left;
+
+		}
+		
+		.dropdown-content a:hover {
+
+			display: block;
+			padding-left: 8px;	
+			width: 70px;
+			background-color: grey;
+
+		 }
+
+		.dropdown:hover .dropdown-content{
+    		
+    		display: block;
+    		width:40px;
+    		background-color: grey;
+    		color:black;
+    		text-decoration: none; 
+
+		}
+
+		.dropdown:hover .dropbtn {
+    		
+    		background-color: #3e8e41;
+
+		}
+		input[type=text] {
+		   	 width: 200px;
+		   	 height: 20px;
+		    box-sizing: border-box;
+		    border: 2px solid #ccc;
+		    
+		    border-radius: 4px;
+		    font-size: 16px;
+		    color: white;
+		    background-image: url('searchicon.png');
+		    background-position: 8px 8px;
+		    background-color: grey; 
+		    background-repeat: no-repeat;
+		    padding: 12px 20px 12px 40px;
+		    
+		}
+
+	</style>
+	<meta name="description" content="Get the latest BBC News: breaking news, features, analysis and debate plus audio and video content from England, Scotland, Wales and Northern Ireland.">
+
+</head>
+<body>
+	<HEADER >
+		<nav>
+			<div id="img-logo-space"><a href="bbc-uk.html" id="bbc-block-logo"><img src="img/bbc-blocks-dark.png" id="img-logo"></a></div>
+			<div class="border-signin">
+				<a href="https://account.bbc.com/signin" class="link-header">
+					<img src="img/user-bbc.png" id="img-user-signin">
+					<div id="signin"><strong> &nbsp;Sign in</strong></div>
+				</a>
+			</div>
+			<div id="news-header"><a href="" class="link-header"><strong>News</strong> </a></div>
+			<div id="news-header"><a href="" class="link-header"><strong>Sport</strong> </a></div>
+			<div id="news-header" style="width: 5%;  padding-right: 8px;"><a href="" class="link-header"><strong>Weather</strong> </a></div>
+			<div id="news-header" style="width:5%; "><a href="" class="link-header"><strong>iPlayer</strong></a></div>	
+			<div id="news-header" style="width:2%; padding-right: 2px; "><a href="" class="link-header"><strong>Tv</strong></a></div>
+			<div id="news-header" style="width:4%; "><a href="" class="link-header"><strong>Radio</strong></a></div>
+
+			<div class="dropdown" style="float: left">
+			  <button class="dropbtn">More <strong>&nbsp;v</strong></button>
+			  <div class="dropdown-content" style="left: 0" >
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			</div>
+			<div><input type="text" name="search" placeholder="Search.." style="padding: 20 px 12px;"></div>
+
+			
+			
+
+		</nav>
+			
+ 		
+	</HEADER>
+
+
+</body>
+</html>
+
+
+

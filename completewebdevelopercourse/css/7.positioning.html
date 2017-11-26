@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>webpage-with-div and positionning-classes</title>
+		<style type="text/css">
+
+			.red  {
+				color:red; 
+			}
+
+			.large {
+				font-size: 200%;
+			}
+			#green {
+				color: green;
+
+			}
+
+			.underline{
+				color: #ffffff;
+				text-decoration: underline; 
+			}	
+			#first-section {
+				
+				color:blue;
+				background-color:pink; 
+				width:400px; 
+				position: relative;
+				left: 200px 
+			}
+			#second-section{
+				background-color:#6c45ed;
+				color:#D12B26;
+				width: 400px;
+				position: relative;
+				left:-100px;
+
+			}
+			#third-section {
+				background-color: #F2D100;
+				color:#000000;
+				width: 300px;
+				height: 80px;
+				position: relative;
+				top: 20px; 
+			}
+			#fourth-section {
+				background-color: #7B7B7B;
+				color: #FFFFFF;
+				position: relative;
+				left:50px;
+				top:-40px; 
+				width: 400px;
+			}
+		</style>
+</head>
+<body>
+
+	<div id="first-section">
+		we are adding 200px padding from left
+		<p >The quick brown fox jumped over the lazy dog</p>
+		<p >WoW i love inserted css!</p>
+		<h1 >The CSS is cool</h1>
+	</div>
+
+	<div id="second-section">
+		<p id="green">There is some more text </p>
+		<p>id : use of id is unique per page<br>
+		class : is used to group tags
+		</p>
+		<p>portion of paragraph is going to be affected</p>
+		<p>part of the paragraph to be affected</p>
+		<p>id : use of id is unique per page <span class="underline"><strong>MOved -100 pixel left</strong></span> </p>
+
+	</div>	
+
+	<div id="third-section">
+		<p> funny fox going 100 px up</p>
+	</div>
+
+	<div id="fourth-section">
+		<p> relative positioning of 4th div</p>
+	</div>		 
+
+</body>
+
+</html> 

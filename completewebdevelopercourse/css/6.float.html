@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>webpage-with-div and color-classes</title>
+	<style type="text/css">
+
+		.red  {
+			color:red; 
+		}
+
+		.large {
+			font-size: 200%;
+		}
+		#green {
+			color: green;
+
+		}
+
+		.underline{
+			color: green;
+			text-decoration: underline; 
+		}	
+		#first-section {
+			
+			color:blue;
+			background-color:pink; 
+			width:100px;  
+			float:left;
+		}
+		#second-section{
+			background-color:#6c45ed;
+			color:#D12B26;
+			float:right;
+
+		}
+		.clear-float {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+
+<div id="first-section">
+	this float left using "float:left;"
+	<p >The quick brown fox jumped over the lazy dog</p>
+	<p >WoW i love inserted css!</p>
+	<h1 >The CSS is cool</h1>
+</div>
+<div id="second-section">
+	<p id="green">There is some more text floating right using "float:right;"</p>
+	<p>id : use of id is unique per page<br>
+	class : is used to group tags
+	</p>
+	<p>portion of paragraph is going to be affected</p>
+	<p>part of the paragraph to be affected</p>
+	<p>id : use of id is unique per page <span class="underline">class : is used to group tags
+</span> </p>
+
+</div>
+<h1>Non floated divs</h1>
+<h4> special case:</h4>
+<p> the paragraph not floated</br>But,tries to squeez inside floated lfet and right divs,</br>
+else it goes underneath
+</p>	
+<div class="clear-float">
+	<h1>no floated divs</h1>
+	<p> this is another non floated paragraph but exclusively underneath all floated divs using "clear: both;"</p>		 
+	
+</div>
+</body>
+</html> 
